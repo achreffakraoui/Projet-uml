@@ -148,16 +148,33 @@
         <mxCell id="pszL1juUFt1aqphnrw6p-5" value=" + effectuerPaiement() : bool  &#xa; + rembourserPaiement() : bool" style="text;whiteSpace=wrap;" vertex="1" parent="pszL1juUFt1aqphnrw6p-0">
           <mxGeometry y="90" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pszL1juUFt1aqphnrw6p-7" value="GestionMaintenance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="960" width="250" height="80" as="geometry">
-            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+        <mxCell id="pszL1juUFt1aqphnrw6p-10" value="GestionMaintenance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="910" width="330" height="90" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pszL1juUFt1aqphnrw6p-8" value="+ réserverBorne() : Réservation" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pszL1juUFt1aqphnrw6p-7">
-          <mxGeometry y="26" width="250" height="24" as="geometry" />
+        <mxCell id="pszL1juUFt1aqphnrw6p-11" value="+ id : int  &#xa;+ description : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pszL1juUFt1aqphnrw6p-10">
+          <mxGeometry y="26" width="330" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="pszL1juUFt1aqphnrw6p-9" value=" + consulterHistorique() : HistoriqueUtilisation" style="text;whiteSpace=wrap;" vertex="1" parent="pszL1juUFt1aqphnrw6p-7">
-          <mxGeometry y="50" width="250" height="30" as="geometry" />
+        <mxCell id="pszL1juUFt1aqphnrw6p-12" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pszL1juUFt1aqphnrw6p-10">
+          <mxGeometry y="60" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-13" value="+ programmerMaintenance() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="pszL1juUFt1aqphnrw6p-10">
+          <mxGeometry y="68" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-14" value="HistoriqueUtilisation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="540" width="240" height="110" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-15" value="+ id : int  &#xa;+ dateDébut : DateTime  &#xa;+ dateFin : DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pszL1juUFt1aqphnrw6p-14">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pszL1juUFt1aqphnrw6p-14">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-17" value="+ consulterHistorique() : List&lt;Reservation&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="pszL1juUFt1aqphnrw6p-14">
+          <mxGeometry y="88" width="240" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

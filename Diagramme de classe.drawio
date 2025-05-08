@@ -85,7 +85,7 @@
           <mxGeometry y="266" width="160" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ygfAIwe8BM8VVtaz-uKs-10" value="AgentBackOffice (hérite de Utilisateur)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="130" y="346" width="240" height="94" as="geometry">
+          <mxGeometry x="720" y="258" width="240" height="94" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -147,6 +147,17 @@
         </mxCell>
         <mxCell id="pszL1juUFt1aqphnrw6p-5" value=" + effectuerPaiement() : bool  &#xa; + rembourserPaiement() : bool" style="text;whiteSpace=wrap;" vertex="1" parent="pszL1juUFt1aqphnrw6p-0">
           <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-7" value="GestionMaintenance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="960" width="250" height="80" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-8" value="+ réserverBorne() : Réservation" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pszL1juUFt1aqphnrw6p-7">
+          <mxGeometry y="26" width="250" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pszL1juUFt1aqphnrw6p-9" value=" + consulterHistorique() : HistoriqueUtilisation" style="text;whiteSpace=wrap;" vertex="1" parent="pszL1juUFt1aqphnrw6p-7">
+          <mxGeometry y="50" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
